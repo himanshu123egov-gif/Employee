@@ -6,6 +6,7 @@ import jakarta.persistence.*;
 @Table(name = "users") 
 public class User {
 
+	//I have added all the entities
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;    // Primary Key
