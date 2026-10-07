@@ -14,7 +14,7 @@ import com.himanshu.entities.User;
 import com.himanshu.services.Userservices;
 
 @RestController
-@RequestMapping("/api/users")  // API Base URL
+@RequestMapping("/api/users/him")  // API Base URL
 public class Usercontrollers2 {
 
     private final Userservices userService;
